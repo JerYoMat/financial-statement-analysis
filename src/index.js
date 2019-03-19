@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import SearchComponent from './search/SearchComponent'
+import SearchComponent from './search/SearchComponent';
+import Analysis from './finData/Analysis';
 import 'bootstrap/dist/css/bootstrap.css';
+
+
 const App = () => {
-  return (
-    <div><SearchComponent /></div>
-  );
+  const [display, setDisplay] = useState('analysis');
+  
+  if (display === 'analysis') {
+    return <Analysis />;
+  }
+  return <SearchComponent />
+
 }
 
 

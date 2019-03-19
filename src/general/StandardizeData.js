@@ -1,4 +1,4 @@
-function ConvertedCompanyData(rawData) {
+function StandardizeData(rawData) {
   const rowList = rawData['result']['rows'].map((item, index) => {
     const row = {}
     item['values'].forEach((pairPair, index) => {
@@ -10,4 +10,4 @@ function ConvertedCompanyData(rawData) {
 
 }
 
-export default ConvertedCompanyData;
+export default StandardizeData;
