@@ -1,7 +1,9 @@
 import ConvertedCompanyData from './ConvertedCompanyData';
+import companyRawData from './static-company-data.json';
+
 
 function filterCompanies(searchText, numResults) {
-  return ConvertedCompanyData()
+  return ConvertedCompanyData(companyRawData)
   .filter(companyObj => {
     if (companyObj.companyname.toLowerCase().includes(searchText.toLowerCase())) {
       return true;

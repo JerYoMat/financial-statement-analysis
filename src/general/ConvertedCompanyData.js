@@ -1,8 +1,5 @@
-import companyRawData from './static-company-data.json';
-
-
-function ConvertedCompanyData() {
-  const companyList = companyRawData['result']['rows'].map((item, index) => {
+function ConvertedCompanyData(rawData) {
+  const companyList = rawData['result']['rows'].map((item, index) => {
     const company = {}
     item['values'].forEach((pairPair, index) => {
       company[pairPair.field] = pairPair.value
