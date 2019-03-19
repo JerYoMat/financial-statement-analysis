@@ -1,7 +1,7 @@
 import React, { PureComponent } from "react";
-import SearchInput from "./SearchInput";
-import CompanyResults from "./CompanyResults";
-import filterCompanies from "./filterCompanies";
+import SearchInput from "./components/SearchInput";
+import CompanyResults from "./components/CompanyResults";
+import filterCompanies from "../general/filterCompanies";
 
 class SearchComponent extends PureComponent {
   constructor(props) {

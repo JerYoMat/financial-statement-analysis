@@ -1,4 +1,4 @@
-import ConvertedCompanyData from './ConvertedCompanyData';
+import ConvertedCompanyData from '../search/components/ConvertedCompanyData';
 
 function filterCompanies(searchText, numResults) {
   return ConvertedCompanyData()
