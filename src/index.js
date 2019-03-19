@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SearchComponent from './components/SearchComponent'
+import SearchComponent from './components/search/SearchComponent'
 import 'bootstrap/dist/css/bootstrap.css';
 const App = () => {
   return (
