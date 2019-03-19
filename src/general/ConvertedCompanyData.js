@@ -1,12 +1,12 @@
 function ConvertedCompanyData(rawData) {
-  const companyList = rawData['result']['rows'].map((item, index) => {
-    const company = {}
+  const rowList = rawData['result']['rows'].map((item, index) => {
+    const row = {}
     item['values'].forEach((pairPair, index) => {
-      company[pairPair.field] = pairPair.value
+      row[pairPair.field] = pairPair.value
     });
-    return company;
+    return row;
   });
-  return companyList
+  return rowList
 
 }
 
