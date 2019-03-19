@@ -7,11 +7,12 @@ class SearchInput extends PureComponent {
 
   render() {
     return (
-      <div className="component-search-input">
-        <div>
-          <input onChange={this.handleChange} />
+      <form>
+        <div className="form-group">
+        <label>Enter Company Name:</label>
+          <input type='text' onChange={this.handleChange} />
         </div>
-      </div>
+        </form>
     );
   }
 }
