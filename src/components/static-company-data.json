@@ -1,153 +1,256 @@
 {
   "result": {
-    "totalrows": 13,
-    "rows": [{
-      "rownum": 1,
-      "values": [{
-        "field": "companyname",
-        "value": "ATHERSYS, INC / NEW"
-      }, {
-        "field": "primarysymbol",
-        "value": "ATHX"
-      }, {
-        "field": "cik",
-        "value": "0001368148"
-      }]
-    }, {
-      "rownum": 2,
-      "values": [{
-        "field": "companyname",
-        "value": "FARMER BROTHERS CO"
-      }, {
-        "field": "primarysymbol",
-        "value": "FARM"
-      }, {
-        "field": "cik",
-        "value": "0000034563"
-      }]
-    }, {
-      "rownum": 3,
-      "values": [{
-        "field": "companyname",
-        "value": "HERSHEY CO"
-      }, {
-        "field": "primarysymbol",
-        "value": "HSY"
-      }, {
-        "field": "cik",
-        "value": "0000047111"
-      }]
-    }, {
-      "rownum": 4,
-      "values": [{
-        "field": "companyname",
-        "value": "HERSHA HOSPITALITY TRUST"
-      }, {
-        "field": "primarysymbol",
-        "value": "HT"
-      }, {
-        "field": "cik",
-        "value": "0001063344"
-      }]
-    }, {
-      "rownum": 5,
-      "values": [{
-        "field": "companyname",
-        "value": "LEHMAN BROTHERS HOLDINGS INC. PLAN TRUST"
-      }, {
-        "field": "primarysymbol",
-        "value": "LEHKQ"
-      }, {
-        "field": "cik",
-        "value": "0000806085"
-      }]
-    }, {
-      "rownum": 6,
-      "values": [{
-        "field": "companyname",
-        "value": "HOLLY BROTHERS PICTURES, INC."
-      }, {
-        "field": "primarysymbol",
-        "value": "MINR"
-      }, {
-        "field": "cik",
-        "value": "0001575659"
-      }]
-    }, {
-      "rownum": 7,
-      "values": [{
-        "field": "companyname",
-        "value": "QPS DIE CUTTERS & FINISHERS CORP"
-      }, {
-        "field": "primarysymbol",
-        "value": "QPSF"
-      }, {
-        "field": "cik",
-        "value": "@000677039"
-      }]
-    }, {
-      "rownum": 8,
-      "values": [{
-        "field": "companyname",
-        "value": "SKECHERS USA INC"
-      }, {
-        "field": "primarysymbol",
-        "value": "SKX"
-      }, {
-        "field": "cik",
-        "value": "0001065837"
-      }]
-    }, {
-      "rownum": 9,
-      "values": [{
-        "field": "companyname",
-        "value": "TOLL BROTHERS INC"
-      }, {
-        "field": "primarysymbol",
-        "value": "TOL"
-      }, {
-        "field": "cik",
-        "value": "0000794170"
-      }]
-    }, {
-      "rownum": 10,
-      "values": [{
-        "field": "companyname",
-        "value": "WEIGHT WATCHERS INTERNATIONAL INC"
-      }, {
-        "field": "primarysymbol",
-        "value": "WTW"
-      }, {
-        "field": "cik",
-        "value": "0000105319"
-      }]
-    }, {
-      "rownum": 11,
-      "values": [{
-        "field": "companyname",
-        "value": "FRANKLIN ELECTRONIC PUBLISHERS INC"
-      }, {
-        "field": "cik",
-        "value": "0000356841"
-      }]
-    }, {
-      "rownum": 12,
-      "values": [{
-        "field": "companyname",
-        "value": "GROEN BROTHERS AVIATION INC /UT/"
-      }, {
-        "field": "cik",
-        "value": "0000870743"
-      }]
-    }, {
-      "rownum": 13,
-      "values": [{
-        "field": "companyname",
-        "value": "WILSON BROTHERS USA INC"
-      }, {
-        "field": "cik",
-        "value": "0000107469"
-      }]
-    }]
+      "totalrows": 13,
+      "rows": [
+          {
+              "rownum": 1,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "ATHERSYS, INC / NEW"
+                  },
+                  {
+                      "field": "primarysymbol",
+                      "value": "ATHX"
+                  },
+                  {
+                      "field": "cik",
+                      "value": "0001368148"
+                  },
+                  {
+                      "field": "primaryexchange",
+                      "value": "Nasdaq Capital Market"
+                  }
+              ]
+          },
+          {
+              "rownum": 2,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "FARMER BROTHERS CO"
+                  },
+                  {
+                      "field": "primarysymbol",
+                      "value": "FARM"
+                  },
+                  {
+                      "field": "cik",
+                      "value": "0000034563"
+                  },
+                  {
+                      "field": "primaryexchange",
+                      "value": "Nasdaq Global Market"
+                  }
+              ]
+          },
+          {
+              "rownum": 3,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "HERSHEY CO"
+                  },
+                  {
+                      "field": "primarysymbol",
+                      "value": "HSY"
+                  },
+                  {
+                      "field": "cik",
+                      "value": "0000047111"
+                  },
+                  {
+                      "field": "primaryexchange",
+                      "value": "NYSE"
+                  }
+              ]
+          },
+          {
+              "rownum": 4,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "HERSHA HOSPITALITY TRUST"
+                  },
+                  {
+                      "field": "primarysymbol",
+                      "value": "HT"
+                  },
+                  {
+                      "field": "cik",
+                      "value": "0001063344"
+                  },
+                  {
+                      "field": "primaryexchange",
+                      "value": "NYSE"
+                  }
+              ]
+          },
+          {
+              "rownum": 5,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "LEHMAN BROTHERS HOLDINGS INC. PLAN TRUST"
+                  },
+                  {
+                      "field": "primarysymbol",
+                      "value": "LEHKQ"
+                  },
+                  {
+                      "field": "cik",
+                      "value": "0000806085"
+                  },
+                  {
+                      "field": "primaryexchange",
+                      "value": "OTC"
+                  }
+              ]
+          },
+          {
+              "rownum": 6,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "HOLLY BROTHERS PICTURES, INC."
+                  },
+                  {
+                      "field": "primarysymbol",
+                      "value": "MINR"
+                  },
+                  {
+                      "field": "cik",
+                      "value": "0001575659"
+                  },
+                  {
+                      "field": "primaryexchange",
+                      "value": "OTC"
+                  }
+              ]
+          },
+          {
+              "rownum": 7,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "QPS DIE CUTTERS & FINISHERS CORP"
+                  },
+                  {
+                      "field": "primarysymbol",
+                      "value": "QPSF"
+                  },
+                  {
+                      "field": "cik",
+                      "value": "@000677039"
+                  },
+                  {
+                      "field": "primaryexchange",
+                      "value": "OTC"
+                  }
+              ]
+          },
+          {
+              "rownum": 8,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "SKECHERS USA INC"
+                  },
+                  {
+                      "field": "primarysymbol",
+                      "value": "SKX"
+                  },
+                  {
+                      "field": "cik",
+                      "value": "0001065837"
+                  },
+                  {
+                      "field": "primaryexchange",
+                      "value": "NYSE"
+                  }
+              ]
+          },
+          {
+              "rownum": 9,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "TOLL BROTHERS INC"
+                  },
+                  {
+                      "field": "primarysymbol",
+                      "value": "TOL"
+                  },
+                  {
+                      "field": "cik",
+                      "value": "0000794170"
+                  },
+                  {
+                      "field": "primaryexchange",
+                      "value": "NYSE"
+                  }
+              ]
+          },
+          {
+              "rownum": 10,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "WEIGHT WATCHERS INTERNATIONAL INC"
+                  },
+                  {
+                      "field": "primarysymbol",
+                      "value": "WTW"
+                  },
+                  {
+                      "field": "cik",
+                      "value": "0000105319"
+                  },
+                  {
+                      "field": "primaryexchange",
+                      "value": "Nasdaq Global Market"
+                  }
+              ]
+          },
+          {
+              "rownum": 11,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "FRANKLIN ELECTRONIC PUBLISHERS INC"
+                  },
+                  {
+                      "field": "cik",
+                      "value": "0000356841"
+                  }
+              ]
+          },
+          {
+              "rownum": 12,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "GROEN BROTHERS AVIATION INC /UT/"
+                  },
+                  {
+                      "field": "cik",
+                      "value": "0000870743"
+                  }
+              ]
+          },
+          {
+              "rownum": 13,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "WILSON BROTHERS USA INC"
+                  },
+                  {
+                      "field": "cik",
+                      "value": "0000107469"
+                  }
+              ]
+          }
+      ]
   }
 }
