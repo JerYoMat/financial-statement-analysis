@@ -1,6 +1,6 @@
 import React from 'react';
 
-function FinTable({ data }) {
+function FinTable() {
   return (<div></div>
   )
 
