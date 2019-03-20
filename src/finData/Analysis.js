@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
-import StandardizeData from '../general/StandardizeData';
-import staticOnePeriodData from '../general/static-1-fin-data';
+
 
 const Analysis = () => {
-  const finData = StandardizeData(staticOnePeriodData);
-  const [companyFinData, setCompanyFinData] = useState(finData)
+  //const finData = StandardizeData(staticOnePeriodData);
+  //const [companyFinData, setCompanyFinData] = useState(finData)
 
   return (
     <div className='container'>
+      <div className='row'>
       <div className='col-md-3'>
           LeftTab
       </div>
       <div className='col-md-9'>Main</div>
-
+      </div>
     </div>
   );
 }
