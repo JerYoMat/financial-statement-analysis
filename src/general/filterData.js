@@ -4,11 +4,11 @@ import standardizeData from './standardizeData';
 
 function filterData(keyArray, data) {
   return standardizeData(data).map(singlePeriod => {
-    const newObj = {}
+    const period = {}
     keyArray.map(key => {
-      newObj[key] = singlePeriod[key]
+      period[key] = singlePeriod[key]
     })
-    return newObj;
+    return period;
   }) 
 }
 

@@ -4,6 +4,7 @@ const companyKeys = ['companyname', 'primarysymbol', 'primaryexchange', 'siccode
 
 const dateKeys = ['receiveddate', 'periodlengthcode', 'periodlength', 'periodenddate', 'fiscalyear','fiscalquarter'];
 
+
 const incomeKeys = ['totalrevenue', 'costofrevenue','grossprofit', 'researchdevelopmentexpense', 'ebit', 'incomebeforetaxes', 'netincome'];
 
 const currentAssetKeys = ['cashandcashequivalents', 'cashcashequivalentsandshortterminvestments', 'othercurrentassets','inventoriesnet', 'totalcurrentassets']
@@ -26,7 +27,8 @@ const cashKeys = ['cashfromoperatingactivities','cashfrominvestingactivities', '
 
 const submissionKeys = ['formtype', 'audited', 'original', 'amended', 'preliminary', 'currencycode', 'crosscalculated', 'usdconversionrate'];
 
+const financialPeriodKeys = ['periodenddate', ...incomeKeys, ...balanceKeys, ...cashKeys]
 
 const altmanKeys = ['totalcurrentassets', 'totalcurrentliabilities', 'totalassets', 'retainedearnings', 'ebit', 'totalliabilities', 'marketcap']
 
-export { companyKeys, dateKeys, incomeKeys, currentAssetKeys, termAssetKeys, currentLiabilityKeys, termLiabilityKeys, equityKeys, balanceKeys, cashKeys, submissionKeys, altmanKeys, assetSideKeys, liabilityAndEquiySideKeys };
+export { companyKeys, dateKeys, incomeKeys, currentAssetKeys, termAssetKeys, currentLiabilityKeys, termLiabilityKeys, equityKeys, balanceKeys, cashKeys, submissionKeys, altmanKeys, assetSideKeys, liabilityAndEquiySideKeys, financialPeriodKeys };
