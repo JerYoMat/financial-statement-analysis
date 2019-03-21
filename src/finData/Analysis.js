@@ -1,8 +1,12 @@
-import React, { useState } from 'react';
-import filterData from '../general/filterData';
-import AltmanZScore from './components/AltmanZScore';
-import standardizeData from '../general/standardizeData';
-import staticData from '../static-2-fin-data.json' 
+import React from 'react';
+import ReactDOM from 'react-dom';
+import LineGraph from './components/LineGraph';
+
+const Analysis = () => {
+  return <LineGraph />
+}
+
+export default Analysis;
 
 
 
