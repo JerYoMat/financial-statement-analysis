@@ -1,4 +1,6 @@
-function StandardizeData(rawData) {
+function standardizeData(rawData) {
+  //Edgar Data Check
+  if (rawData['result']['rows']) {
   const rowList = rawData['result']['rows'].map((item, index) => {
     const row = {}
     item['values'].forEach((pairPair, index) => {
@@ -6,8 +8,11 @@ function StandardizeData(rawData) {
     });
     return row;
   });
-  return rowList
+    return rowList}
+  //TODO: Add IEX Data
 
 }
 
-export default StandardizeData;
+
+
+export default standardizeData;

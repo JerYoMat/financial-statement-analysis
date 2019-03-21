@@ -1,16 +1,15 @@
-import StandardizeData from './StandardizeData';
-import companyRawData from './static-company-data.json';
+import standardizeData from './standardizeData';
 
-
-function filterCompanies(searchText, numResults) {
-  return StandardizeData(companyRawData)
-  .filter(companyObj => {
-    if (companyObj.companyname.toLowerCase().includes(searchText.toLowerCase())) {
-      return true;
-    }
-    return false;
-  })
-  .slice(0, numResults);
+// TODO: I'd like to reuse this to get the desired outputs every time.
+function filterCompanies(searchText, numResults, data, keylist) {
+  return standardizeData(data)
+    .filter(jsonObj => {
+      if (jsonObj.companyname.toLowerCase().includes(searchText.toLowerCase())) {
+        return true;
+      }
+      return false;
+    })
+    .slice(0, numResults);
 }
 
 export default filterCompanies;
