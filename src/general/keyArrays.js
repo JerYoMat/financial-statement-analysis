@@ -32,6 +32,7 @@ const submissionKeys = ['formtype', 'audited', 'original', 'amended', 'prelimina
 
 const financialPeriodKeys = ['periodenddate', ...incomeKeys, ...balanceKeys, ...cashKeys]
 
-const altmanKeys = ['totalcurrentassets', 'totalcurrentliabilities', 'totalassets', 'retainedearnings', 'ebit', 'totalliabilities', 'marketcap']
+const altmanKeys = ['totalcurrentassets', 'totalcurrentliabilities', 'totalassets', 'retainedearnings', 'ebit', 'totalliabilities', 'totalrevenue']
 
 export { companyKeys, dateKeys, incomeKeys, currentAssetKeys, termAssetKeys, currentLiabilityKeys, termLiabilityKeys, equityKeys, balanceKeys, cashKeys, submissionKeys, altmanKeys, assetSideKeys, liabilityAndEquiySideKeys, financialPeriodKeys, coreIsKeys, periodenddate };
+
