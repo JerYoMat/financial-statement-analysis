@@ -31,9 +31,14 @@ class Analysis extends Component {
     chartData.datasets[1].data = peerAltmanData[0].displayData;
     return(
       <div className='container'>
-      
-          <AltmanCard zScore={coAltmanData[0].zScore} cData={chartData} cOptions={chartOptions} companyName={this.state.companyData[0].primarysymbol} peerName={this.state.competitorData[0].primarysymbol}coSeries={pureCoData} peerSeries={purePeerData}/>
-      
+          <AltmanCard 
+            zScore={coAltmanData[0].zScore} 
+            cData={chartData} 
+            cOptions={chartOptions} 
+            companyName={this.state.companyData[0].primarysymbol} peerName={this.state.competitorData[0].primarysymbol}
+            coSeries={pureCoData} 
+            peerSeries={purePeerData}
+          />
       </div>
     )
   }

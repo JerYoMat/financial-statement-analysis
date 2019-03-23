@@ -2,6 +2,7 @@ import React from 'react';
 import AltmanZScoreChart from './AltmanZScoreChart';
 
 function AltmanCard({ zScore, cData, cOptions, companyName, peerName, coSeries, peerSeries }) {
+  const ary = ['A', 'B', 'C', 'D', 'E']
 
   return (
     <div className="card col-md-8">
@@ -15,20 +16,19 @@ function AltmanCard({ zScore, cData, cOptions, companyName, peerName, coSeries, 
         <table className="table">
           <thead>
             <tr>
+              <th />
               <th scope="col">{companyName}</th>
               <th scope="col">{peerName}</th>
             </tr>
           </thead>
           <tbody>
-            
             {coSeries.map((value, index) => 
               <tr key={index}>
+                <th scope='row'>{ary[index]}</th> 
                 <td>{value.toFixed(2)}</td>
                 <td>{peerSeries[index].toFixed(2)}</td>
               </tr>
-            )}
-              
-              
+            )}   
           </tbody>
         </table>
         </div>
