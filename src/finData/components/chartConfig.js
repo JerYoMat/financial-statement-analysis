@@ -1,5 +1,5 @@
 const chartData = {
-  labels: ['EBIT/Total Assets', 'Net Sales/Total Assets', 'Book Value/Total Liabilities', 'Working Capital/Total Assets', 'Retained Earnings/Total Assets'],
+  labels: ['A', 'B', 'C', 'D', 'E'],
   datasets: [
     {
       label: 'Company',
@@ -9,22 +9,34 @@ const chartData = {
       pointBorderColor: '#fff',
       pointHoverBackgroundColor: '#fff',
       pointHoverBorderColor: 'rgba(179,181,198,1)',
-      data: [1, 2, 3, 4, 5]
+      data: []
     },
     {
       label: 'Industry',
       backgroundColor: 'rgba(255,99,132,0.2)',
+      hoverBackgroundColor: "#000000",
       borderColor: 'rgba(255,99,132,1)',
       pointBackgroundColor: 'rgba(255,99,132,1)',
       pointBorderColor: '#fff',
       pointHoverBackgroundColor: '#fff',
       pointHoverBorderColor: 'rgba(255,99,132,1)',
-      data: [6, 7, 8, 9, 10]
+      data: []
     }
   ]
 };
 
 const chartOptions= {
+  layout: {
+    padding: {
+      left: 0,
+      right: 0,
+      top: 0,
+      bottom: 0
+    }
+  },
+  legend: {
+    display: false
+  },
   tooltips: {
       callbacks: {
           label: function(tooltipItem, data) {
@@ -41,7 +53,6 @@ const chartOptions= {
     ticks: {
         beginAtZero: true,
         min: 0,
-       
     }
 }
 }

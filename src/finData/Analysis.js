@@ -10,27 +10,27 @@ import filterStdData from '../general/filterStdData'
 import staticData from '../general/static-2-fin-data';
 import staticIndData from './components/altman-industry-data.json' 
 
-
 class Analysis extends Component {
-  state = {
-    companyData: standardizeData(staticData),
-    industryData: standardizeData(staticIndData),
-  };
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      companyData: standardizeData(staticData),
+      industryData: standardizeData(staticIndData),
+    };
+  }
 
   render() {
     const cData = chartData
     const altmanData = calculateAltmanZScores(filterStdData(altmanKeys, this.state.companyData))
     cData.datasets[0].data = altmanData[0].displayData
-    cData.datasets[1].data = calculateAltmanZScores(filterStdData(altmanKeys, this.state.industryData))[2].displayData  // ! Placeholder values.  Currently just the first company in the industry set
+    cData.datasets[1].data = calculateAltmanZScores(filterStdData(altmanKeys, this.state.industryData))[6].displayData  // ! Placeholder values.  Currently just the first company in the industry set
 
     return(
       <div className='container'>
-        <div className='row'>
-          <div className='col-md-1'></div>
-          <AltmanCard zScore={altmanData[0].zScore} cData={cData} cOptions={chartOptions}/>
-          <div className='col-md-1'></div>
-        </div>
-
+      
+          <AltmanCard zScore={altmanData[0].zScore} cData={cData} cOptions={chartOptions} companyName={this.state.companyData[0].primarysymbol}/>
+      
       </div>
     )
   }

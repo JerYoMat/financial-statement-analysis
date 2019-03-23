@@ -1,16 +1,51 @@
 import React from 'react';
 import AltmanZScoreChart from './AltmanZScoreChart';
 
-function AltmanCard({ zScore, cData, cOptions }) {
+function AltmanCard({ zScore, cData, cOptions, companyName }) {
   return (
-    <div className="card col-md-5">
-      <h5 className="card-title">Altman Z-Score: {zScore}</h5>
-        <AltmanZScoreChart cData={cData} cOptions={cOptions} />
-          <div className="card-body">
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
+    <div className="card col-md-8">
+      <div className='row'>
+        <div className='col-md-8'>
+          <AltmanZScoreChart cData={cData} cOptions={cOptions} />
+          <div>Altman Z-Score:{zScore.toFixed(2)}</div>
+        </div>
+        
+        <div className='col-md-4'>
+        <table className="table">
+          <thead>
+            <tr>
+              <th scope="col">{companyName}</th>
+              <th scope="col">IND</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">0.23</th>
+              <td>Mark</td>
+            </tr>
+            <tr>
+              <th scope="row">0.55</th>
+              <td>Jacob</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
     </div>
   );
 }
 
 export default AltmanCard;
+//<p className="card-title">Altman Z-Score: {zScore}</p>
