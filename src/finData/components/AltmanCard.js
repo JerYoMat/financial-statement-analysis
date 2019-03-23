@@ -1,7 +1,8 @@
 import React from 'react';
 import AltmanZScoreChart from './AltmanZScoreChart';
 
-function AltmanCard({ zScore, cData, cOptions, companyName }) {
+function AltmanCard({ zScore, cData, cOptions, companyName, peerName, coSeries, peerSeries }) {
+
   return (
     <div className="card col-md-8">
       <div className='row'>
@@ -15,30 +16,19 @@ function AltmanCard({ zScore, cData, cOptions, companyName }) {
           <thead>
             <tr>
               <th scope="col">{companyName}</th>
-              <th scope="col">IND</th>
+              <th scope="col">{peerName}</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <th scope="row">0.23</th>
-              <td>Mark</td>
-            </tr>
-            <tr>
-              <th scope="row">0.55</th>
-              <td>Jacob</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Larry</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Larry</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Larry</td>
-            </tr>
+            
+            {coSeries.map((value, index) => 
+              <tr key={index}>
+                <td>{value.toFixed(2)}</td>
+                <td>{peerSeries[index].toFixed(2)}</td>
+              </tr>
+            )}
+              
+              
           </tbody>
         </table>
         </div>
@@ -46,6 +36,8 @@ function AltmanCard({ zScore, cData, cOptions, companyName }) {
     </div>
   );
 }
+
+
 
 export default AltmanCard;
 //<p className="card-title">Altman Z-Score: {zScore}</p>
