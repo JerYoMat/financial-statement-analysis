@@ -1,0 +1,266 @@
+{
+  "result": {
+      "totalrows": 7,
+      "rows": [
+          {
+              "rownum": 1,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "HERSHEY CO"
+                  },
+                  {
+                      "field": "totalcurrentassets",
+                      "value": 2239181000
+                  },
+                  {
+                      "field": "totalcurrentliabilities",
+                      "value": 2418566000
+                  },
+                  {
+                      "field": "totalassets",
+                      "value": 7703020000
+                  },
+                  {
+                      "field": "retainedearnings",
+                      "value": 7032020000
+                  },
+                  {
+                      "field": "ebit",
+                      "value": 1623664000
+                  },
+                  {
+                      "field": "totalliabilities",
+                      "value": 6304299000
+                  },
+                  {
+                      "field": "totalrevenue",
+                      "value": 7791069000
+                  }
+              ]
+          },
+          {
+              "rownum": 2,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "SANFILIPPO JOHN B & SON INC"
+                  },
+                  {
+                      "field": "totalcurrentassets",
+                      "value": 247802000
+                  },
+                  {
+                      "field": "totalcurrentliabilities",
+                      "value": 117193000
+                  },
+                  {
+                      "field": "totalassets",
+                      "value": 415773000
+                  },
+                  {
+                      "field": "retainedearnings",
+                      "value": 127240000
+                  },
+                  {
+                      "field": "ebit",
+                      "value": 56109000
+                  },
+                  {
+                      "field": "totalliabilities",
+                      "value": 172851000
+                  },
+                  {
+                      "field": "totalrevenue",
+                      "value": 888595000
+                  }
+              ]
+          },
+          {
+              "rownum": 3,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "NIGHTFOOD HOLDINGS, INC."
+                  },
+                  {
+                      "field": "totalcurrentassets",
+                      "value": 154859
+                  },
+                  {
+                      "field": "totalcurrentliabilities",
+                      "value": 2813813
+                  },
+                  {
+                      "field": "totalassets",
+                      "value": 154859
+                  },
+                  {
+                      "field": "retainedearnings",
+                      "value": -8620714
+                  },
+                  {
+                      "field": "ebit",
+                      "value": -1838048
+                  },
+                  {
+                      "field": "totalliabilities",
+                      "value": 2813813
+                  },
+                  {
+                      "field": "totalrevenue",
+                      "value": 196742
+                  }
+              ]
+          },
+          {
+              "rownum": 4,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "ROCKY MOUNTAIN CHOCOLATE FACTORY, INC."
+                  },
+                  {
+                      "field": "totalcurrentassets",
+                      "value": 15571368
+                  },
+                  {
+                      "field": "totalcurrentliabilities",
+                      "value": 8207616
+                  },
+                  {
+                      "field": "totalassets",
+                      "value": 28940635
+                  },
+                  {
+                      "field": "retainedearnings",
+                      "value": 13419553
+                  },
+                  {
+                      "field": "ebit",
+                      "value": 5220869
+                  },
+                  {
+                      "field": "totalliabilities",
+                      "value": 9384032
+                  },
+                  {
+                      "field": "totalrevenue",
+                      "value": 38074695
+                  }
+              ]
+          },
+          {
+              "rownum": 5,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "NUTRITIONAL HIGH INTL INC."
+                  },
+                  {
+                      "field": "totalcurrentassets",
+                      "value": 5674250
+                  },
+                  {
+                      "field": "totalcurrentliabilities",
+                      "value": 6427486
+                  },
+                  {
+                      "field": "totalassets",
+                      "value": 20938214
+                  },
+                  {
+                      "field": "retainedearnings",
+                      "value": -15177767
+                  },
+                  {
+                      "field": "ebit",
+                      "value": -5701386
+                  },
+                  {
+                      "field": "totalliabilities",
+                      "value": 12687935
+                  },
+                  {
+                      "field": "totalrevenue",
+                      "value": 4468391
+                  }
+              ]
+          },
+          {
+              "rownum": 6,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "TOOTSIE ROLL INDUSTRIES INC"
+                  },
+                  {
+                      "field": "totalcurrentassets",
+                      "value": 304046000
+                  },
+                  {
+                      "field": "totalcurrentliabilities",
+                      "value": 61391000
+                  },
+                  {
+                      "field": "totalassets",
+                      "value": 947361000
+                  },
+                  {
+                      "field": "retainedearnings",
+                      "value": 33767000
+                  },
+                  {
+                      "field": "ebit",
+                      "value": 70482000
+                  },
+                  {
+                      "field": "totalliabilities",
+                      "value": 196739000
+                  },
+                  {
+                      "field": "totalrevenue",
+                      "value": 518920000
+                  }
+              ]
+          },
+          {
+              "rownum": 7,
+              "values": [
+                  {
+                      "field": "companyname",
+                      "value": "CHASE GENERAL CORP"
+                  },
+                  {
+                      "field": "totalcurrentassets",
+                      "value": 595327
+                  },
+                  {
+                      "field": "totalcurrentliabilities",
+                      "value": 220246
+                  },
+                  {
+                      "field": "totalassets",
+                      "value": 830507
+                  },
+                  {
+                      "field": "retainedearnings",
+                      "value": -5887988
+                  },
+                  {
+                      "field": "ebit",
+                      "value": -264634
+                  },
+                  {
+                      "field": "totalliabilities",
+                      "value": 252499
+                  },
+                  {
+                      "field": "totalrevenue",
+                      "value": 2680236
+                  }
+              ]
+          }
+      ]
+  }
+}
